@@ -7,7 +7,7 @@ let browser;
 let page;
 
 Given("I'm on the registration page", async () => {
-  browser = await chromium.launch({ headless: false });
+  browser = await chromium.launch({ headless: true });
   page = await browser.newPage();
   await page.setViewportSize({ width: 1280, height: 768 });
 
