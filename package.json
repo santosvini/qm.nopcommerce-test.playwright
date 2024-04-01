@@ -1,0 +1,22 @@
+{
+  "name": "qm.nopcommerce-test.playwright",
+  "version": "1.0.0",
+  "description": "Teste técnico com playwright e cucumber para a aplicação Nop Commerce Demo Store",
+  "main": "index.js",
+  "scripts": {
+    "test": " cucumber-js test",
+    "test1": " cucumber-js test"
+  },
+  "keywords": ["playwright", "cucumber", "e2e", "automação"],
+  "author": "Vini Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.2",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
